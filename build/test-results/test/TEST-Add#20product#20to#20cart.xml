@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add product to cart" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-04T17:48:41" hostname="DESKTOP-0P2N7DL" time="8.497">
+  <properties/>
+  <testcase name="Verification that the shopping cart shows the total cost of the order is correct" classname="Add product to cart" time="8.497"/>
+  <system-out><![CDATA[S/60.00
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 4915
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 04, 2020 12:48:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>

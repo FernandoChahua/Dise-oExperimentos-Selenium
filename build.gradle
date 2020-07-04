@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'application'
+
+}
+application{
+    mainClassName = "LoginTest"
+}
+
+jar{
+    manifest{
+        attributes 'Main-Class':'LoginTest'
+    }
+}
+apply plugin: 'java'
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    testCompile 'io.cucumber:cucumber-java:6.1.1'
+    testCompile 'io.cucumber:cucumber-junit:6.1.1'
+
+
+}
